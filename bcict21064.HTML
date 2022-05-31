@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>profile</title>
+<style>
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+   
+   
+}
+.all{
+    border:rgb(151, 145, 145) solid 5px;
+    margin: 50px;
+    padding: 1px;
+    
+}
+
+.header{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+
+                                        /*   about myself area  */
+
+img{
+    background-color: black;
+    width: 200px;
+    border-radius: 20px;
+    outline: invert;
+    margin-bottom: 20px;
+    transition: transform 0.9s;
+    box-shadow: 1px 2px 9px black;
+}
+img:hover{
+    background-color: rgb(255, 0, 0);
+    width: 200px;
+    border-radius: 20px;
+    transform: scale(1.1);
+    transition: 0.4s;
+    
+   
+}
+.about{
+    background-color: rgb(57, 57, 57);
+    margin: 0;
+    height:fit-content;
+    max-width: 100%;
+    padding: 18px;
+}
+
+                                                    /*   school area  */
+
+
+.school-details{
+    margin-top: 20px;
+}
+.school{
+    color: black;
+}
+h2, p{
+    color: aliceblue;
+
+}
+h2{
+    color: white;
+}
+p{
+    font-style: italic;
+}
+hr{
+    box-shadow: 0px 3px 15px red;
+    border: solid 2px;
+}
+.ttu{
+    text-decoration: none;
+    color:rgb(205, 63, 63);
+}
+
+                                            /*   contact area  */
+ .contact{
+     margin: 30px;
+     padding: 10px;
+     
+ }
+
+    a{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(214, 0, 0);
+    
+    
+}
+.git, .tweet, .linkedin, .gmail{
+    transition: transform 0.9s;
+    box-shadow: 1px 2px 9px black;
+    transform: scale(1.1);
+    border-radius: 1px 40px 40px 40px ;
+}
+
+.git:hover{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    
+
+}
+.tweet:hover{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(0, 174, 255);
+    transition: 1s;
+}
+.linkedin:hover{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(32, 12, 255);
+    transition: 1s;
+    
+
+}
+.gmail{
+    margin: 5px;
+    padding: 5px;
+    color: rgb(241, 29, 29);
+    transition: 1s;
+}
+</style>
+
+</head>
+<body>
+    <div class="all">      
+          <div class="header">
+                    <h1 >Profile</h1> 
+                    <div class="profile">
+                        <img src="https://scontent-cpt1-1.xx.fbcdn.net/v/t1.6435-9/191418313_1357883704595795_383100330704737229_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pOAxFMzrcJgAX8bGN6k&_nc_ht=scontent-cpt1-1.xx&oh=00_AT820H7pOkD5TUtI0_OxESnLDKRzKglbpPgeoMpOYOBRkw&oe=62BA2C97 " alt="profile picture">
+                    </div>
+            </div>
+
+
+
+                <!--about myself area  -->
+
+            <div class="about">
+                    <h2>About Me</h2>
+                        <p>Hello there! 
+                            my name is George Femi Wise<br>
+                            Full time student of Takoradi Techncal University<br>
+                            I'm a per time car detailer.<br>
+                            My dream is to be a AI engineer, software developer and a business man.
+                
+                        </p>
+                
+            </div>
+
+            <!--school area -->
+
+
+
+
+            <div class="school-details">
+                <strong>School Details</strong> 
+                    <p class="school"><a target="_blank" href="https://ttu.edu.gh/" class="ttu" >Takoradi Technical University</a><br>
+                        Faculty Of Applied Scinece<br>
+                        Bachelor's Deggree In Computer Scinece<br>
+                        Index no: BC/ICT/21/064<br>
+                    </p>
+            </div>
+
+
+
+            <!--contact area -->
+
+
+            <div class="contact">
+                
+                
+                        <a alt="github" class="git" target="_blank" href="https://github.com/Georgefemiwise"><i class="fa fa-github"></i></a>
+                        <a alt="twitter" class="tweet"target="_blank" href="https://twitter.com/Georgefemiwise"><i class="fa fa-twitter"></i></a>
+                        <a alt="linkedin" class="linkedin" target="_blank" href="https://gh.linkedin.com/in/gf-wise"><i class="fa fa-linkedin"></i></a>
+                        <a alt="email" class="gmail" target="_blank" href="mailto:bcict21064@ttu.edu.gh"><i class="fa fa-envelope" ></i></a><br>
+                           
+                        
+                
+            </div>
+
+    </div>
+    
+</body>
+</html>
